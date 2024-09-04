@@ -1,0 +1,27 @@
+body{
+    background-image: url("ring1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    overflow:hidden;
+
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding:13px 75px;
+    top:0;
+    display:block;
+    float: left;
+    color:whitesmoke;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    transition:1s;
+    border-radius:40px;
+}
+.navbar a:hover{
+    background-color: burlywood;
+}
