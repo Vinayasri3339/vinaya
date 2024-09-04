@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jewellery.css">
+    <script src="https://kit.fontawesome.com/2a5dbd528d.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image: url("blue.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color:white;
+            width:100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+    overflow:hidden;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding:13px 75px;
+    top:0;
+    display:block;
+    float: left;
+    color:whitesmoke;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    transition:1s;
+    border-radius:40px;
+}
+.navbar a:hover{
+    background-color: burlywood;
+}
+.link a{
+    text-decoration: none;
+    border: 2px solid darkgrey;
+    padding: 2px;
+    color:black;
+    box-shadow: 2px 2px 3px darkgrey, 0px 0px 5px grey;
+    border-radius: 4px;
+}
+.form{
+    padding-top:80px;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <a> <img src="sj.png" style="width:100px;height:100px;" alt="Logo"></a>
+        <a href="home.html"><i class="fa-sharp fa-solid fa-house"></i> HOME</a>
+        <a href="About.html"><i class="fa-sharp fa-solid fa-user"></i> ABOUT</a>
+        <a href="info.html"><i class="fa-sharp fa-solid fa-crown"></i> JEWELLERY</a>
+        <a href="contact.html"><i class="fa-sharp fa-solid fa-phone"></i> CONTACT</a>
+        <a href="login.html">LOGIN </a>
+    </div>
+   
+    
+    <form class="form" align="center">
+            <label for="uname">User Name:</label>
+            <input type="text" id="uname" name="uname"><br><br>
+            <label for="mail/number">Email:</label>
+            <input type="email/number" id="mail/number" name="mail/number" placeholder="Enter your email/number" pattern="[0-9]{10}"><br><br>
+            <p class="link"><a  href="Jewellery.html">submit</a></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2a5dbd528d.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url("blackbg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    .navbar{
+        overflow:hidden;
+       
+    }
+    .navbar a{
+        text-decoration: none;
+        text-align: center;
+        padding:13px 75px;
+        top:0;
+        display:block;
+        float: left;
+        color:wheat;
+        background-attachment: fixed;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        transition:1s;
+        border-radius:40px;
+        font-size: bold;
+    }
+    .navbar a:hover{
+        background-color: burlywood;
+    }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a> <img src="sj.png" style="width:100px;height:100px;" alt="Logo"></a>
+        <a href="home.html"><i class="fa-sharp fa-solid fa-house"></i> HOME</a>
+        <a href="About.html"><i class="fa-sharp fa-solid fa-user"></i> ABOUT</a>
+        <a href="info.html"><i class="fa-sharp fa-solid fa-crown"></i> JEWELLERY</a>
+        <a href="contact.html"><i class="fa-sharp fa-solid fa-phone"></i> CONTACT</a>
+        <a href="login.html">LOGIN </a>
+    </div>
+    <h1 style="color: whitesmoke;font-family: 'Courier New', Courier, monospace;" align="center">please feel free to contact us</h1>
+    <form style="color:white; font-size: x-large;" align="left">
+        <fieldset><legend align="center"><b>CONTACT US</b></legend>
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="gender">GENDER:</label>
+            <input type="radio" id="gender" name="gender">
+            <label for="male">MALE</label>
+            <input type="radio" id="gender" name="gender">
+            <label for="female">FEMALE:</label><br><br>
+            <label for="mail">EMAIL:</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter your email" required>
+            <br><br>
+            <label for="phone">PHONE NUMBER:</label>
+            <input type="number" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="0123-456-789">
+            <br><br>
+            <label for="add">ADDRESS:</label>
+            <br>
+            <textarea name="address" id="add" cols="30" rows="10"></textarea>
+            <br><br>
+            <label for="add">MESSAGE:</label>
+            <br>
+            <textarea name="address" id="add" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <footer>
+        <p style="color:white;">owner:vinaya sri
+            <p style="color:white;">Gmail:<a href="allamvinayasri@gmail.com">allamvinayasri@gmail.com</a></p>
+        </p>
+    </footer>
+</body>
+</html>
